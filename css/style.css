@@ -76,3 +76,30 @@ header ul li a{
 	background-color: #000000;
 	z-index: 99;
 }
+
+section{
+	padding: 60px, 0;
+	height: 100%;
+	position: relative;
+}
+.home{
+	color: #ffffff;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: url(/images/IMG_8583\ \(2\).jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #34495e ;
+	background-attachment: fixed;
+	z-index: 9;
+}
+.home h1 {
+	font-size: 68px;
+	text-transform: uppercase;
+	text-shadow: 0 15px 20px #000000;
+	margin-bottom: 0;
+	visibility: hidden;
+}
